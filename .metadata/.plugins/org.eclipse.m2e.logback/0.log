@@ -705,3 +705,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2024-10-06 17:02:43,880 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
 2024-10-06 17:04:19,429 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
 2024-10-06 17:04:19,431 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-14 14:45:18,763 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

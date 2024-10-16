@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T17:05:38 IST" name="Default suite" finished-at="2024-10-06T17:05:49 IST" duration-ms="10435">
+  <suite started-at="2024-10-16T19:16:55 IST" name="Default suite" finished-at="2024-10-16T19:17:03 IST" duration-ms="8540">
     <groups>
     </groups>
-    <test started-at="2024-10-06T17:05:38 IST" name="Default test" finished-at="2024-10-06T17:05:49 IST" duration-ms="10435">
+    <test started-at="2024-10-16T19:16:55 IST" name="Default test" finished-at="2024-10-16T19:17:03 IST" duration-ms="8540">
       <class name="KishoreProjects.AppiumBasics">
-        <test-method signature="AppiumTest()[pri:0, instance:KishoreProjects.AppiumBasics@368247b9]" started-at="2024-10-06T17:05:38 IST" name="AppiumTest" finished-at="2024-10-06T17:05:49 IST" duration-ms="10380" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:KishoreProjects.AppiumBasics@196a42c3]" started-at="2024-10-16T19:16:55 IST" name="configureAppium" finished-at="2024-10-16T19:17:02 IST" duration-ms="6594" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AppiumTest -->
+        </test-method> <!-- configureAppium -->
+        <test-method signature="WifiSettingsName()[pri:0, instance:KishoreProjects.AppiumBasics@196a42c3]" started-at="2024-10-16T19:17:02 IST" name="WifiSettingsName" finished-at="2024-10-16T19:17:03 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WifiSettingsName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:KishoreProjects.AppiumBasics@196a42c3]" started-at="2024-10-16T19:17:03 IST" name="tearDown" finished-at="2024-10-16T19:17:03 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- KishoreProjects.AppiumBasics -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

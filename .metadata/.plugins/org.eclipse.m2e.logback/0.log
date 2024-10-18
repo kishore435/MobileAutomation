@@ -787,3 +787,29 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2024-10-18 01:14:53,403 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
 2024-10-18 01:15:23,938 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
 2024-10-18 01:15:23,939 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 11:02:49,955 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-18 13:42:25,138 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 13:42:25,145 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 13:49:17,924 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 13:49:17,927 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:17:10,643 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:17:10,648 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:18:20,616 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:18:20,620 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:20:03,423 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:20:03,427 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:20:21,673 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:20:21,679 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:21:28,568 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:21:28,575 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 14:21:40,413 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating LongPressGesture from maven configuration
+2024-10-18 14:24:51,055 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 14:24:51,059 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 19:08:52,971 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-18 19:14:41,761 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 19:14:41,770 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 19:17:26,539 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 19:17:26,543 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-18 19:18:02,903 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-18 19:18:02,905 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-19 00:32:00,622 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

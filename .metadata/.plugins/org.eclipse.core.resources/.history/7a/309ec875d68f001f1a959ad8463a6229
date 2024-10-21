@@ -20,7 +20,7 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-public class SwipeDemo extends BaseTest {
+public class DragDropDemo extends BaseTest {
 	
 	@Test
 	public void swipeTest() throws MalformedURLException, URISyntaxException, InterruptedException

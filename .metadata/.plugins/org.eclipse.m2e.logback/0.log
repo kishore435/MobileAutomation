@@ -874,3 +874,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2024-10-21 16:00:03,166 [main] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SwipeDemo from maven configuration
 2024-10-21 16:01:26,303 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
 2024-10-21 16:01:26,304 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-21 16:02:52,739 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-21 16:02:52,741 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources
+2024-10-21 16:03:02,059 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\main\resources
+2024-10-21 16:03:02,060 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Mobile Programming\MobileAutomation\Appium\src\test\resources

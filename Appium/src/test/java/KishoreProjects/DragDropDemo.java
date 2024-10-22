@@ -20,19 +20,21 @@ import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-public class SwipeDemo extends BaseTest {
+public class DragDropDemo extends BaseTest {
 	
 	@Test
-	public void swipeTest() throws MalformedURLException, URISyntaxException, InterruptedException
+	public void DragDropTest() throws MalformedURLException, URISyntaxException, InterruptedException
 	{
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
-		driver.findElement(AppiumBy.accessibilityId("Gallery")).click();
-		driver.findElement(By.xpath("//android.widget.TextView[@text='1. Photos']")).click();
-		WebElement firstImage = driver.findElement(By.xpath("(//android.widget.ImageView)[1]"));
-		Assert.assertEquals(driver.findElement(By.xpath("(//android.widget.ImageView)[1]")).getAttribute("focusable"),"true");		
-		swipeAction(firstImage,"left");				
-		Assert.assertEquals(driver.findElement(By.xpath("(//android.widget.ImageView)[1]")).getAttribute("focusable"),"false");
-
+		driver.findElement(AppiumBy.accessibilityId("Drag and Drop")).click();
+		WebElement source = driver.findElement(By.id("io.appium.android.apis:id/drag_dot_1"));
+		((JavascriptExecutor) driver).executeScript("mobile: dragGesture", ImmutableMap.of(
+			    "elementId", ((RemoteWebElement) source).getId(),
+			    "endX", 656,
+			    "endY", 580
+			));
+		Thread.sleep(2000);
+		Assert.assertEquals(driver.findElement(By.id("io.appium.android.apis:id/drag_result_text")).getText(), "Dropped!");
 }
 }

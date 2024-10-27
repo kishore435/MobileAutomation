@@ -56,6 +56,7 @@ public class MiscellaneousAppiumActions extends BaseTest {
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
 		driver.pressKey(new KeyEvent(AndroidKey.BACK));
 		driver.pressKey(new KeyEvent(AndroidKey.HOME));
+		String s = "{\"access_token\":";
 	}
 
 }

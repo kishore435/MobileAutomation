@@ -27,13 +27,13 @@ public class ScrollDemo extends BaseTest {
 	{
 		
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
-		
-		//To scroll till the text Webview and scroll back to text Animation
-		  driver.findElement(AppiumBy.
-		  androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"
-		  )); Thread.sleep(3000); driver.findElement(AppiumBy.
-		  androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Animation\"));"
-		  ));
+
+		// To scroll till the text Webview and scroll back to text Animation
+		driver.findElement(
+				AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
+		Thread.sleep(3000);
+		driver.findElement(
+				AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Animation\"));"));
 		 
 		
 		scrollToendAction();//scroll till the end of the page

@@ -1,0 +1,10 @@
+package KishoreProjects;
+
+public class pp {
+	
+	public static void main()
+	{
+		System.out.println("\"{\\\"access_token\\\":\\\"\"");
+	}
+
+}

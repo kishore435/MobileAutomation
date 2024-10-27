@@ -34,7 +34,8 @@ public class BaseTest {
 				service.start();
 				UiAutomator2Options options = new UiAutomator2Options();
 				options.setDeviceName("KishoreEmulator");
-				options.setApp("C:\\Users\\Mobile Programming\\MobileAutomation\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+				//options.setApp("C:\\Users\\Mobile Programming\\MobileAutomation\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+				options.setApp("C:\\Users\\Mobile Programming\\MobileAutomation\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 				
 				 driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 				 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -67,6 +68,12 @@ public class BaseTest {
 			    "direction", direction,
 			    "percent", 0.75
 			));
+	}
+	
+	public Double getFormattedAmount(String amount)
+	{
+		Double  price =  Double.parseDouble(amount.substring(1));
+		return price;
 	}
 	
 	@AfterClass

@@ -35,6 +35,7 @@ public class BaseTest {
 				UiAutomator2Options options = new UiAutomator2Options();
 				options.setDeviceName("KishoreEmulator");
 				//options.setApp("C:\\Users\\Mobile Programming\\MobileAutomation\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+				options.setChromedriverExecutable("C:\\Users\\Mobile Programming\\Desktop\\chromeDriverMobile\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 				options.setApp("C:\\Users\\Mobile Programming\\MobileAutomation\\Appium\\src\\test\\java\\resources\\General-Store.apk");
 				
 				 driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
